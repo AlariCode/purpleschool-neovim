@@ -17,7 +17,7 @@ require("lazy").setup({
 		dependencies = { 'nvim-lua/plenary.nvim' }
 	},
 	{
-		"srcery-colors/srcery-vim",
+		"catppuccin/nvim",
 		priority = 1000 -- Ensure it loads first
 	},
 	{ 'nvim-treesitter/nvim-treesitter' },
@@ -38,5 +38,6 @@ require("lazy").setup({
 		"nvim-telescope/telescope-file-browser.nvim",
 		dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
 	},
-	{'akinsho/toggleterm.nvim', version = "*", config = true}
+	{'akinsho/toggleterm.nvim', version = "*", config = true},
+	{ 'jose-elias-alvarez/null-ls.nvim' },
 });
