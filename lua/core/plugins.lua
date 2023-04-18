@@ -37,5 +37,6 @@ require("lazy").setup({
 	{
 		"nvim-telescope/telescope-file-browser.nvim",
 		dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
-	}
+	},
+	{'akinsho/toggleterm.nvim', version = "*", config = true}
 });
