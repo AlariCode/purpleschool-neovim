@@ -1,0 +1,13 @@
+require ("core.mappings")
+require ("core.plugins")
+require ("core.colors")
+require ("core.configs")
+
+require ("plugins.telescope")
+require ("plugins.lsp")
+require ("plugins.mason")
+require ("plugins.cmp")
+require ("plugins.lualine")
+require ("plugins.gitsigns")
+require ("plugins.treesitter")
+require ("plugins.telescope-file-browser")
