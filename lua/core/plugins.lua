@@ -40,4 +40,5 @@ require("lazy").setup({
 	},
 	{'akinsho/toggleterm.nvim', version = "*", config = true},
 	{ 'jose-elias-alvarez/null-ls.nvim' },
+	{ 'windwp/nvim-autopairs' },
 });
