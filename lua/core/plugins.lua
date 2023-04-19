@@ -20,6 +20,7 @@ require("lazy").setup({
 		"catppuccin/nvim",
 		priority = 1000 -- Ensure it loads first
 	},
+	{ 'cooperuser/glowbeam.nvim' },
 	{ 'nvim-treesitter/nvim-treesitter' },
 	{ 'neovim/nvim-lspconfig' },
 	{ 'hrsh7th/cmp-nvim-lsp' },
