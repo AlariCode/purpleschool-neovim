@@ -43,4 +43,6 @@ require("lazy").setup({
 	{ 'jose-elias-alvarez/null-ls.nvim' },
 	{ 'windwp/nvim-autopairs' },
 	{ 'Djancyp/outline' },
+    { 'terrortylor/nvim-comment' },
+    { 'windwp/nvim-ts-autotag' }
 });
