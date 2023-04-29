@@ -44,5 +44,21 @@ require("lazy").setup({
 	{ 'windwp/nvim-autopairs' },
 	{ 'Djancyp/outline' },
     { 'terrortylor/nvim-comment' },
-    { 'windwp/nvim-ts-autotag' }
-});
+    { 'windwp/nvim-ts-autotag' },
+	{
+		"nvim-neo-tree/neo-tree.nvim",
+        branch = "v2.x",
+		dependencies = { "nvim-lua/plenary.nvim", "nvim-tree/nvim-web-devicons", "MunifTanjim/nui.nvim", "s1n7ax/nvim-window-picker" }
+	},
+{
+    "folke/which-key.nvim",
+    config = function()
+      vim.o.timeout = true
+      vim.o.timeoutlen = 300
+      require("which-key").setup({
+        -- your configuration comes here
+        -- or leave it empty to use the default settings
+        -- refer to the configuration section below
+      })
+    end,
+  },});
