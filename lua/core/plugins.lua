@@ -50,15 +50,10 @@ require("lazy").setup({
         branch = "v2.x",
 		dependencies = { "nvim-lua/plenary.nvim", "nvim-tree/nvim-web-devicons", "MunifTanjim/nui.nvim", "s1n7ax/nvim-window-picker" }
 	},
-{
-    "folke/which-key.nvim",
-    config = function()
-      vim.o.timeout = true
-      vim.o.timeoutlen = 300
-      require("which-key").setup({
-        -- your configuration comes here
-        -- or leave it empty to use the default settings
-        -- refer to the configuration section below
-      })
-    end,
-  },});
+    {
+		"akinsho/bufferline.nvim",
+		dependencies = {
+            'nvim-tree/nvim-web-devicons'
+        }
+    }
+});
