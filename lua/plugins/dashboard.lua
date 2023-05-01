@@ -17,7 +17,7 @@ require('dashboard').setup {
         header = default_header(),
         center = {
             {
-                icon = ' ',
+                icon = '󰙅 ',
                 icon_hl = 'Title',
                 desc = 'Open tree',
                 desc_hl = 'String',
@@ -26,7 +26,7 @@ require('dashboard').setup {
                 key_hl = 'Number',
                 action = ':Neotree float'
             }, {
-                icon = ' ',
+                icon = '󰈞 ',
                 icon_hl = 'Title',
                 desc = 'Find files',
                 desc_hl = 'String',
@@ -35,7 +35,7 @@ require('dashboard').setup {
                 key_hl = 'Number',
                 action = ':Telescope find_files'
             }, {
-                icon = ' ',
+                icon = ' ',
                 icon_hl = 'Title',
                 desc = 'Find text',
                 desc_hl = 'String',
@@ -44,7 +44,7 @@ require('dashboard').setup {
                 key_hl = 'Number',
                 action = ':Telescope live_grep'
             }, {
-                icon = ' ',
+                icon = ' ',
                 icon_hl = 'Title',
                 desc = 'Git Braches',
                 desc_hl = 'String',
