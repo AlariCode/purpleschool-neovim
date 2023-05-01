@@ -45,5 +45,5 @@ require("lazy").setup({
         'glepnir/dashboard-nvim',
         event = 'VimEnter',
         dependencies = {{'nvim-tree/nvim-web-devicons'}}
-    }
+    }, {"folke/which-key.nvim"}
 });
