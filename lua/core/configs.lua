@@ -8,7 +8,8 @@ vim.opt.updatetime = 100
 vim.wo.signcolumn = "yes"
 vim.opt.scrolloff = 8
 vim.opt.wrap = false
-vim.opt.ttimeoutlen = 5
+vim.wo.linebreak = true
+vim.wo.list = false -- extra option I set in addition to the ones in your questionttimeoutlen = 5
 vim.opt.virtualedit = "block"
 vim.opt.undofile = true
 vim.opt.shell = "/bin/zsh"
@@ -41,15 +42,15 @@ vim.opt.wrap = true
 
 -- Fillchars
 vim.opt.fillchars = {
-  vert = "│",
-  fold = "⠀",
-  eob = " ", -- suppress ~ at EndOfBuffer
-  --diff = "⣿", -- alternatives = ⣿ ░ ─ ╱
-  msgsep = "‾",
-  foldopen = "▾",
-  foldsep = "│",
-  foldclose = "▸",
+    vert = "│",
+    fold = "⠀",
+    eob = " ", -- suppress ~ at EndOfBuffer
+    -- diff = "⣿", -- alternatives = ⣿ ░ ─ ╱
+    msgsep = "‾",
+    foldopen = "▾",
+    foldsep = "│",
+    foldclose = "▸"
 }
 
--- vim.cmd([[highlight clear LineNr]])
--- vim.cmd([[highlight clear SignColumn]])
+vim.cmd([[highlight clear LineNr]])
+vim.cmd([[highlight clear SignColumn]])

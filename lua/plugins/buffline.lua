@@ -1,8 +1,7 @@
-require("bufferline").setup{
-options = {
+require("bufferline").setup {
+    options = {
         buffer_close_icon = '',
         mode = 'buffers',
-        --        separator_style = 'slant',
         offsets = {
             {
                 filetype = "neo-tree",
@@ -11,5 +10,5 @@ options = {
                 padding = 1
             }
         }
-    },
+    }
 }
