@@ -9,6 +9,11 @@ require("bufferline").setup {
                 separator = true,
                 padding = 1
             }
+        },
+        diagnostics = "nvim_lsp",
+        indicator = {
+            icon = '  ', -- this should be omitted if indicator style is not 'icon'
+            style = 'icon'
         }
     }
 }
