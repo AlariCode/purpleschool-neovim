@@ -43,6 +43,7 @@
       -- { name = 'snippy' }, -- For snippy users.
     }, {
       { name = 'buffer' },
+      { name = 'nvim_lsp_signature_help' }
     })
   })
 

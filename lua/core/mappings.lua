@@ -1,5 +1,5 @@
 vim.g.mapleader = " "
-vim.keymap.set('n', '<leader>e', ':NeoTreeShowToggle<CR>')
+vim.keymap.set('n', '<leader>e', ':NeoTreeFocusToggle<CR>')
 vim.keymap.set('n', '<c-k>', ':wincmd k<CR>')
 vim.keymap.set('n', '<c-j>', ':wincmd j<CR>')
 vim.keymap.set('n', '<c-h>', ':wincmd h<CR>')
