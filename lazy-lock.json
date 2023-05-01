@@ -5,6 +5,7 @@
   "cmp-nvim-lsp": { "branch": "main", "commit": "0e6b2ed705ddcff9738ec4ea838141654f12eeef" },
   "cmp-nvim-lsp-signature-help": { "branch": "main", "commit": "3d8912ebeb56e5ae08ef0906e3a54de1c66b92f1" },
   "cmp-path": { "branch": "main", "commit": "91ff86cd9c29299a64f968ebb45846c485725f23" },
+  "dashboard-nvim": { "branch": "master", "commit": "be2420c29fd4b96d095b631c5a9cbd7fd4bd5aa3" },
   "gitsigns.nvim": { "branch": "main", "commit": "372d5cb485f2062ac74abc5b33054abac21d8b58" },
   "glowbeam.nvim": { "branch": "main", "commit": "12144d6062455425028390095d2932d566cbc851" },
   "lazy.nvim": { "branch": "main", "commit": "5c89dc52f42e5058a46b0912d7d9042f564e44e0" },
@@ -25,7 +26,6 @@
   "onedark.vim": { "branch": "main", "commit": "b6b5ffe31a195a3077338d7a506b905e4a51590f" },
   "outline": { "branch": "main", "commit": "be453b8dee0ede505de2d77319183ae177a0af7d" },
   "plenary.nvim": { "branch": "master", "commit": "9ac3e9541bbabd9d73663d757e4fe48a675bb054" },
-  "telescope-file-browser.nvim": { "branch": "master", "commit": "e0fcb12702ad0d2873544a31730f9aaef04fd032" },
   "telescope.nvim": { "branch": "master", "commit": "c1a2af0af69e80e14e6b226d3957a064cd080805" },
   "toggleterm.nvim": { "branch": "main", "commit": "026dff5e2b504941cf172691561a67ea362596aa" }
 }

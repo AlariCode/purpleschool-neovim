@@ -9,7 +9,6 @@ vim.wo.signcolumn = "yes"
 vim.opt.scrolloff = 8
 vim.opt.wrap = false
 vim.wo.linebreak = true
-vim.wo.list = false -- extra option I set in addition to the ones in your questionttimeoutlen = 5
 vim.opt.virtualedit = "block"
 vim.opt.undofile = true
 vim.opt.shell = "/bin/zsh"
@@ -38,7 +37,6 @@ vim.opt.shiftwidth = 4
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.smartindent = true
-vim.opt.wrap = true
 
 -- Fillchars
 vim.opt.fillchars = {
