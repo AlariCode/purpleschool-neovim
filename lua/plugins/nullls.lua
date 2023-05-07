@@ -7,6 +7,8 @@ null_ls.setup({
         null_ls.builtins.formatting.lua_format,
         null_ls.builtins.diagnostics.eslint_d,
         null_ls.builtins.formatting.stylua,
+        null_ls.builtins.diagnostics.ltrs,
+        null_ls.builtins.formatting.rustfmt,
     },
 	on_attach = function(client, bufnr)
         if client.supports_method("textDocument/formatting") then

@@ -4,7 +4,18 @@ lspconfig.pyright.setup {}
 lspconfig.tsserver.setup {}
 lspconfig.prismals.setup {}
 lspconfig.golangci_lint_ls.setup {}
-
+lspconfig.rust_analyzer.setup {
+  settings = {
+    ['rust-analyzer'] = {
+            diagnostics = {
+                enable = true,
+                experimental = {
+                    enable = true,
+                },
+            },
+    },
+  },
+}
 -- Global mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
 vim.keymap.set('n', '<leader>lD', vim.diagnostic.open_float)
