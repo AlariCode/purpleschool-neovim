@@ -46,5 +46,7 @@ require("lazy").setup({
         event = 'VimEnter',
         dependencies = {{'nvim-tree/nvim-web-devicons'}}
     }, {"folke/which-key.nvim"},
-    { 'phaazon/hop.nvim'}
+    { 'phaazon/hop.nvim'},
+    { 'hrsh7th/vim-vsnip' },
+    {'hrsh7th/vim-vsnip-integ'}
 });
